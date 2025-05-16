@@ -95,15 +95,15 @@
           </h2>
         </div>
       </MagneticEffect>
-
+<!-- 
       <div class="flex justify-start">
         <p
           class="heading-6 font-fancy text-flax-smoke-400 hidden font-bold uppercase select-none md:block"
         >
-          available for freelancers <br />
+         Sepideh Rafiei<br />
           work and collaboration
         </p>
-      </div>
+      </div> -->
       <div class="flex">
         <ul
           class="w-full flex-1 gap-1 overflow-y-hidden text-lg font-medium md:flex md:gap-2 md:text-xl lg:gap-4 lg:text-2xl xl:text-3xl"

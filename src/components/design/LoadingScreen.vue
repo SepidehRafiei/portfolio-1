@@ -22,7 +22,7 @@
           <span
             class="loading-text inline-block translate-y-full will-change-auto"
           >
-            Hetari
+            Sepideh Rafiei
           </span>
         </h3>
 
@@ -30,7 +30,8 @@
           <span
             class="loading-text inline-block translate-y-full opacity-70 will-change-auto"
           >
-            &copy; Folio {{ new Date().getFullYear() }}
+            <!-- &copy; Folio {{ new Date().getFullYear() }} -->
+             frontEnd developer
           </span>
         </p>
 

@@ -1,8 +1,8 @@
-# Ebraheem Alhetari - Full-Stack Developer Portfolio
+# Sepideh Rafiei- Full-Stack Developer Portfolio
 
 ### Enjoying my project? Please show your appreciation by starring it on GitHub! ⭐
 
-Welcome to my portfolio! I'm **Ebraheem Alhetari**, a full-stack developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
+Welcome to my portfolio! I'm **Sepideh Rafieihetari**, a full-stack developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
 
 ## 📜 Important Note
 
@@ -10,7 +10,7 @@ If you would like to use or modify this portfolio, please:
 
 1. **Star** this repository on GitHub.
 2. **Fork** the repository instead of cloning or downloading it directly.
-3. **Credit** Ebraheem Alhetari as the original coder and animator, and acknowledge **Huy Nguyen** for the original UI design.
+3. **Credit** Sepideh Rafieias the original coder and animator, and acknowledge **Huy Nguyen** for the original UI design.
 
 In the `data.ts` file, there are resource links that credit the original designer and other relevant sources:
 
@@ -21,7 +21,7 @@ const resourceLinks = [
     url: 'https://www.huyng.xyz',
   },
   {
-    label: 'Ebraheem Alhetari',
+    label: 'Sepideh Rafieihetari',
     url: 'https://github.com/Hetari/portfolio',
   },
 ```

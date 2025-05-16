@@ -8,7 +8,7 @@
         <div class="w-full items-end overflow-clip">
           <div class="flex w-full items-start gap-10">
             <MyName />
-            <Star id="star" class="hide-on-mobile translate-x-full" />
+            <Star id="star" class="hide-on-mobile translate-x-full mt-7" />
           </div>
         </div>
 
@@ -74,7 +74,7 @@
           </div>
 
           <!-- content-end justify-self-end  -->
-          <div
+           <div
             class="relative col-span-8 size-full overflow-clip text-end sm:col-span-4"
           >
             <div
@@ -84,12 +84,14 @@
               <p
                 class="3xl:text-base block leading-snug font-medium -tracking-tight uppercase"
               >
-                Available for freelance work
+                frontend developer since
               </p>
               <h3
                 class="3xl:heading-1 heading-1-alt font-fancy block leading-none font-bold -tracking-tight"
               >
-                {{ AvailableForWorkDate }}
+                <!-- {{ AvailableForWorkDate }} -->
+                  April 2022
+
               </h3>
             </div>
           </div>
@@ -108,9 +110,9 @@
   import { getAvailableForWorkDate, textSplitterIntoChar } from '@/functions';
   import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
 
-  const whoAmI = ref(
-    'A freelance full-stack developer, cutting-edge technologies to deliver comprehensive solutions for your business.',
-  );
+const whoAmI = ref(
+  'A frontend developer specializing in Vue, Nuxt, and TypeScript, building fast, scalable, and maintainable web applications.',
+);
   const AvailableForWorkDate = ref('');
 
   onBeforeMount(() => {
