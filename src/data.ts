@@ -36,21 +36,17 @@ const navbarLinks = [
 ];
 
 const socialLinks = [
-  {
-    label: 'X',
-    url: 'https://x.com/hetaridev',
-  },
-  {
-    label: 'Telegram',
-    url: 'https://t.me/e_1_e',
-  },
+  // {
+  //   label: 'Telegram',
+  //   url: 'https://t.me/e_1_e',
+  // },
   {
     label: 'GitHub',
-    url: 'https://github.com/hetari',
+    url: 'https://github.com/Sepidehrfi',
   },
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/hetaridev/',
+    url: 'www.linkedin.com/in/sepidehrafiei',
   },
 ];
 

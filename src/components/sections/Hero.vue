@@ -38,8 +38,8 @@
             </div>
 
             <p class="sr-only">
-              A freelance full-stack developer, cutting-edge technologies to
-              deliver comprehensive solutions for your business.
+              <!-- A freelance full-stack developer, cutting-edge technologies to
+              deliver comprehensive solutions for your business. -->
             </p>
             <p
               v-html="whoAmI"

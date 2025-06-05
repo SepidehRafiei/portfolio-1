@@ -19,9 +19,10 @@
         <p
           class="heading-4 font-fancy col-span-8 w-full text-balance sm:font-semibold md:col-span-5"
         >
-          User-Friendly interface don't happen by chance, they are built with
-          intention. I code intuitive responsive solutions that make your users'
-          journey effortless
+          
+I build fast, responsive web interfaces with Vue.js and Nuxt. Clean code, smooth UX, and a focus on performance and scalability.
+
+
         </p>
       </div>
     </div>
@@ -64,7 +65,7 @@
     },
     {
       title: 'Advanced Solutions',
-      body: 'I specialize in developing advanced web applications that redefine the possibilities of online platforms, crafting progressive web apps and integrating complex systems.',
+      body: 'I specialize in developing advanced web applications that redefine the possibilities of online platforms, crafting progressive web apps.',
       headings: [
         'Progressive Web Apps',
         'Complex Integrations',

@@ -44,9 +44,8 @@
         <p
           class="heading-4 relative w-full max-w-[40ch] leading-snug font-medium text-balance"
         >
-          With a passion for design and development, I take projects from
-          ideation to launch, ensuring a seamless journey that leaves a lasting
-          positive impact on the digital landscape and your business.
+          
+I’m a front-end developer with a focus on Vue.js and Nuxt, passionate about turning ideas into clean, user-friendly web experiences. From concept to deployment, I care about every detail — performance, accessibility, and design that feels right.
         </p>
 
         <div
@@ -56,12 +55,11 @@
             ( ABOUT ME )
           </p>
           <p class="heading-6 font-fancy w-full text-balance sm:max-w-[40ch]">
-            Creating great web experiences is my primary focus. I ensure each
-            project leaves users with a feel-good sensation through meticulous
-            attention to detail and user-centric design principles. <br /><br />
-            When I'm not immersed in web development and design, you can find me
-            sharing insights about my freelance journey on <i>&Xopf;</i>,
-            loudly, playing music (Funk), or just relaxing.
+           
+            
+             I’ve built a wide range of platforms for various companies —
+including websites, admin panels, and different types of dashboards<br /><br />
+
           </p>
         </div>
       </div>
@@ -88,7 +86,7 @@
 
   onBeforeMount(() => {
     aboutMe.value = textSplitterIntoChar(
-      'Programmer, Developer, Web-animator/',
+      'Programmer, Developer',
       true,
       true,
     );
