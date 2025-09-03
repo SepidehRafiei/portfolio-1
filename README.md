@@ -1,8 +1,8 @@
-# Sepideh Rafiei- Full-Stack Developer Portfolio
+# Sepideh Rafiei- Front-end Developer Portfolio
 
 ### Enjoying my project? Please show your appreciation by starring it on GitHub! ⭐
 
-Welcome to my portfolio! I'm **Sepideh Rafieihetari**, a full-stack developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
+Welcome to my portfolio! I'm **Sepideh Rafieihetari**, a frontend developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
 
 ## 📜 Important Note
 
@@ -27,7 +27,6 @@ const resourceLinks = [
 ```
 
 By following these guidelines, you'll be respecting the effort and collaboration behind this project.
-
 
 ## 🛠 Tech Stack
 
