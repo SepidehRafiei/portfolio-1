@@ -149,7 +149,7 @@
       tags: ['HTML', 'CSS', 'Javascript'],
       videoSrc: '/videos/work1.webm',
       imageBg: workBg1,
-      url: 'https://github.com/Sepidehrfi/Memory-Card-Game',
+      url: 'https://github.com/SepidehRafiei/Memory-Card-Game',
       year: '2025',
     },
     {
@@ -159,7 +159,7 @@
       tags: ['Animation', 'Vuejs'],
       videoSrc: '/videos/work2.webm',
       imageBg: workBg2,
-      url: 'https://github.com/Sepidehrfi/apollo',
+      url: 'https://github.com/SepidehRafiei/apollo',
       year: '2024',
     },
     {
@@ -169,7 +169,7 @@
       tags: ['Vue.js', 'Tailwind', 'TypeScript'],
       videoSrc: '/videos/work3.webm',
       imageBg: workBg3,
-      url: 'https://github.com/Sepidehrfi/Calculator-Vue',
+      url: 'https://github.com/SepidehRafiei/Calculator-Vue',
       year: '2025',
     },
     {

@@ -42,7 +42,7 @@ const socialLinks = [
   // },
   {
     label: 'GitHub',
-    url: 'https://github.com/Sepidehrfi',
+    url: 'https://github.com/SepidehRafiei',
   },
   {
     label: 'LinkedIn',
