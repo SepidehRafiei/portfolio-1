@@ -4,7 +4,7 @@
   "framework": "vite",
   "routes": [
     {
-      "src": "/(.*)\\.(js|css|svg|png|jpg|jpeg|gif|webp|ico|woff2?)",
+      "src": "/(.*)\\.(js|css|svg|png|jpg|jpeg|gif|webp|ico|woff2?|mp4|webm|ogg)",
       "dest": "/$1.$2"
     },
     {
@@ -13,4 +13,3 @@
     }
   ]
 }
-
