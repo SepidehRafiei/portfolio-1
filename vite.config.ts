@@ -6,9 +6,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/portfolio/',
+  base: './',
   build: {
     sourcemap: true,
+     outDir: "dist",
     // terserOptions:
     chunkSizeWarningLimit: 1600,
   },

@@ -71,13 +71,14 @@
                 <!-- autoplay="false" -->
 
                 <video
-                  :src="work.videoSrc"
                   loop
                   muted
-                  @error="handleVideoError"
-                  type="video/webm"
+                  playsinline
+                  preload="metadata"
                   class="work-video size-[80%] rounded-md object-contain"
-                ></video>
+                >
+                  <source :src="work.videoSrc" type="video/webm" />
+                </video>
               </div>
             </div>
             <div>
@@ -113,7 +114,6 @@
 
 <script setup lang="ts">
   import { animateSplitText } from '@/animations';
-  import { work1, work2, work3, work4 } from '@/assets/videos';
   import { textSplitterIntoChar } from '@/functions';
   import { computed, onBeforeMount, onMounted, ref } from 'vue';
   import gsap from 'gsap';
@@ -147,7 +147,7 @@
       name: 'Memory Card Game',
       category: 'CLI Tool & Game',
       tags: ['HTML', 'CSS', 'Javascript'],
-      videoSrc: work1,
+      videoSrc: '/videos/work1.webm',
       imageBg: workBg1,
       url: 'https://github.com/Sepidehrfi/Memory-Card-Game',
       year: '2025',
@@ -157,7 +157,7 @@
       name: 'Apollo',
       category: 'Frontend',
       tags: ['Animation', 'Vuejs'],
-      videoSrc: work2,
+      videoSrc: '/videos/work2.webm',
       imageBg: workBg2,
       url: 'https://github.com/Sepidehrfi/apollo',
       year: '2024',
@@ -167,7 +167,7 @@
       name: 'Calculate',
       category: 'Frontend & Project',
       tags: ['Vue.js', 'Tailwind', 'TypeScript'],
-      videoSrc: work3,
+      videoSrc: '/videos/work3.webm',
       imageBg: workBg3,
       url: 'https://github.com/Sepidehrfi/Calculator-Vue',
       year: '2025',
@@ -176,8 +176,8 @@
       id: 3,
       name: 'Ticket',
       category: 'Frontend',
-      tags: ['Vue.js', 'Vuetify','TypeScript'],
-      videoSrc: work4,
+      tags: ['Vue.js', 'Vuetify', 'TypeScript'],
+      videoSrc: '/videos/work4.webm',
       imageBg: workBg4,
       url: '',
       year: '2025',
