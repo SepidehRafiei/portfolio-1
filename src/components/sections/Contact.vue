@@ -29,12 +29,7 @@
         <div
           class="mt-[5%] flex scale-150 items-center lg:scale-[1.5] xl:scale-[3] 2xl:scale-[3.5]"
         >
-          <Button
-            :data-cal-namespace="dataCalNamespace"
-            :data-cal-link="dataCalLink"
-            :data-cal-config="dataCalConfig"
-            label="Get in touch"
-          />
+          SepidehRafiee.k@gmail.com
         </div>
       </div>
       <div

@@ -44,8 +44,10 @@
         <p
           class="heading-4 relative w-full max-w-[40ch] leading-snug font-medium text-balance"
         >
-          
-I’m a front-end developer with a focus on Vue.js and Nuxt, passionate about turning ideas into clean, user-friendly web experiences. From concept to deployment, I care about every detail — performance, accessibility, and design that feels right.
+          I’m a front-end developer with a focus on Vue.js and Nuxt, passionate
+          about turning ideas into clean, user-friendly web experiences. From
+          concept to deployment, I care about every detail — performance,
+          accessibility, and design that feels right.
         </p>
 
         <div
@@ -53,13 +55,13 @@ I’m a front-end developer with a focus on Vue.js and Nuxt, passionate about tu
         >
           <p class="heading-6 text-flax-smoke-300/85 text-center text-nowrap">
             ( ABOUT ME )
+            <br />  
+            <a href="files/my-portfolio.pdf" download>Download PDF Resume</a>
           </p>
           <p class="heading-6 font-fancy w-full text-balance sm:max-w-[40ch]">
-           
-            
-             I’ve built a wide range of platforms for various companies —
-including websites, admin panels, and different types of dashboards<br /><br />
-
+            I’ve built a wide range of platforms for various companies —
+            including websites, admin panels, and different types of
+            dashboards<br /><br />
           </p>
         </div>
       </div>
@@ -85,11 +87,7 @@ including websites, admin panels, and different types of dashboards<br /><br />
   // );
 
   onBeforeMount(() => {
-    aboutMe.value = textSplitterIntoChar(
-      'Programmer, Developer',
-      true,
-      true,
-    );
+    aboutMe.value = textSplitterIntoChar('Programmer, Developer', true, true);
   });
 
   onMounted(() => {

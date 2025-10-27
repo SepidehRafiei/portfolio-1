@@ -49,13 +49,14 @@
 
             <div class="relative origin-left overflow-hidden sm:scale-150">
               <div id="contact-btn" class="flex -translate-y-full">
-                <Button
+                <!-- <Button
                   :data-cal-namespace="dataCalNamespace"
                   :data-cal-link="dataCalLink"
                   :data-cal-config="dataCalConfig"
                   class="contact"
                   label="Get in touch"
-                />
+                /> -->
+                SepidehRafiee.k@gmail.com
               </div>
             </div>
           </div>
