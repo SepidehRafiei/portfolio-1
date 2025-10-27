@@ -9,7 +9,7 @@ export default defineConfig({
   base: './',
   build: {
     sourcemap: true,
-     outDir: "dist",
+    outDir: 'dist',
     // terserOptions:
     chunkSizeWarningLimit: 1600,
   },
@@ -18,7 +18,7 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: 'https://hetari.github.io/',
+      hostname: 'https://github.com/SepidehRafiei/portfolio-1',
       basePath: 'portfolio',
       changefreq: 'hourly', // default: 'daily'
       priority: 1,

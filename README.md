@@ -2,7 +2,7 @@
 
 ### Enjoying my project? Please show your appreciation by starring it on GitHub! ⭐
 
-Welcome to my portfolio! I'm **Sepideh Rafieihetari**, a frontend developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
+Welcome to my portfolio! I'm **Sepideh Rafiei**, a frontend developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
 
 ## 📜 Important Note
 
@@ -19,10 +19,6 @@ const resourceLinks = [
   {
     label: 'Huy Nguyen (the UI designer)',
     url: 'https://www.huyng.xyz',
-  },
-  {
-    label: 'Sepideh Rafieihetari',
-    url: 'https://github.com/Hetari/portfolio',
   },
 ```
 
@@ -59,7 +55,7 @@ To view the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hetari/portfolio
+git clone https://github.com/SepidehRafiei/portfolio-1
 
 # Navigate to the project directory
 cd portfolio
