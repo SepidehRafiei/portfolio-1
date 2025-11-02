@@ -74,14 +74,13 @@
 
 <script setup lang="ts">
   import { earthLottie } from '@/assets/videos';
-  import { Button } from '../common';
-  import { Vue3Lottie } from 'vue3-lottie';
+ import { Vue3Lottie } from 'vue3-lottie';
   import Link from '../Link.vue';
   import { contact } from '@/assets/videos';
   import { onBeforeMount, onMounted, ref } from 'vue';
   import { textSplitterIntoChar } from '@/functions';
   import { animateSplitText } from '@/animations';
-  import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
+
 
   const makeItHappen = ref("Let's Make it happen");
   onBeforeMount(() => {

@@ -105,10 +105,8 @@
 <script setup lang="ts">
   import { onBeforeMount, ref } from 'vue';
   import { MyName, Star } from '../design';
-  import { Button } from '@/components/common';
   import { profile } from '@/assets/images';
   import { getAvailableForWorkDate, textSplitterIntoChar } from '@/functions';
-  import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
 
   const whoAmI = ref(
     'A frontend developer specializing in Vue, Nuxt, and TypeScript, building fast, scalable, and maintainable web applications.',
